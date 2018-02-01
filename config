@@ -3,7 +3,6 @@
 #
 # Should you change your keyboard layout somewhen, delete
 # this file and re-run i3-config-wizard(1).
-#
 
 # i3 config file (v4)
 #
@@ -27,7 +26,7 @@ set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
 
-# Use Mouse+$mod to drag floating windows to their wanted position
+# use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # floating always
@@ -49,7 +48,7 @@ bindsym $mod+Shift+q kill
 # start rofi instead of dmenu
 bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 25 -padding 25 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "DejaVu Sans Mono 12"
 
-# Apps and settings
+# apps and settings
 bindsym $mod+b exec firefox
 bindsym $mod+l exec i3lock --color 475263 
 bindsym $mod+f exec pcmanfm 
@@ -97,10 +96,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+v split h
+bindsym $mod+v split v
 
 # split in vertical orientation
-bindsym $mod+h split v
+bindsym $mod+h split h
 
 # enter fullscreen mode for the focused container
 # bindsym $mod+f fullscreen
