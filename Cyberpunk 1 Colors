@@ -1,0 +1,5 @@
+set $bg-color            #283252
+set $inactive-bg-color   #283252
+set $text-color          #8e5593
+set $inactive-text-color #7b4a67
+set $urgent-bg-color     #d55e9a
